@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import LatestRecipes from './Components/LatestRecipes'
 import Navbar from './Components/Navbar'
+import Newsletter from './Components/Newsletter'
 import RecipeCategories from './Components/RecipeCategories'
 
 
@@ -18,7 +19,9 @@ function App() {
     <RecipeCategories/>
     <LatestRecipes/>
     <About/>
+    <Newsletter/>
     <Footer/>
+    
     
     </>
   )
