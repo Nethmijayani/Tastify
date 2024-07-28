@@ -6,7 +6,7 @@ import Header from './Components/Header'
 import LatestRecipes from './Components/LatestRecipes'
 import Navbar from './Components/Navbar'
 import RecipeCategories from './Components/RecipeCategories'
-import Home from './Pages/Home'
+
 
 function App() {
   

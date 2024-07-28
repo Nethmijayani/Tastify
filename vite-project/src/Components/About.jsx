@@ -1,11 +1,11 @@
 import React from 'react'
-import download from "../assets/download.jfif"
+
 
 const About = () => {
   return (
     <div>
       <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5">
-        <img src={download} alt="" />
+      
     
       <div className=" space-y-4lg:pt-14">
         <h1 className=" font-semibold text-4xl text-center md:text-start">
