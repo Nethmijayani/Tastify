@@ -6,10 +6,10 @@ import Desserts from "../assets/sweets.png"
 
 const RecipeCategories = () => {
   return (
-    <div className='items-center'>
-      <h1 className='text-4xl font-serif text-green-500 font-extrabold px-4'>Browse Recipes</h1>
+    <div className='items-center px-20'>
+      <h1 className='text-4xl font-serif text-black font-extrabold px-20'>Browse Recipes</h1>
 
-    <br />
+    <br/>
 
       <div className="w-full lg-w-3/4 px-4">
           <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
@@ -17,7 +17,7 @@ const RecipeCategories = () => {
             
               <div>
                 <img src={Breakfast} alt="" className='w-30 h-20  px-8' />
-                <h5 className="text-3xl font-semibolt text-black px-5 text-center ">
+                <h5 className="text-3xl font-semibolt text-black px-5 text-center sm:text-xl">
                   Breakfast
                 </h5>
               </div>
@@ -29,7 +29,7 @@ const RecipeCategories = () => {
             
             <div>
               <img src={Lunch} alt="" className='w-30 h-20  px-8' />
-              <h5 className="text-3xl font-semibolt text-black px-5 text-center ">
+              <h5 className="text-3xl font-semibolt text-black px-5 text-center md:text-xl">
                 Lunch
               </h5>
             </div>
@@ -40,7 +40,7 @@ const RecipeCategories = () => {
             
               <div>
                 <img src={Drinks} alt="" className='w-30 h-20  px-8' />
-                <h5 className="text-3xl font-semibolt text-black px-5 text-center ">
+                <h5 className="text-3xl font-semibolt text-black px-5 text-center md:text-xl ">
                   Drinks
                 </h5>
               </div>
@@ -51,7 +51,7 @@ const RecipeCategories = () => {
             
               <div>
                 <img src={Desserts} alt="" className='w-30 h-20  px-8' />
-                <h5 className="text-3xl font-semibolt text-black px-5 text-center ">
+                <h5 className="text-3xl font-semibolt text-black px-5 text-center md:text-xl">
                   Desserts
                 </h5>
               </div>

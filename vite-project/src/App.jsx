@@ -1,6 +1,9 @@
 
 import './App.css'
+import About from './Components/About'
+import Footer from './Components/Footer'
 import Header from './Components/Header'
+import LatestRecipes from './Components/LatestRecipes'
 import Navbar from './Components/Navbar'
 import RecipeCategories from './Components/RecipeCategories'
 import Home from './Pages/Home'
@@ -13,6 +16,9 @@ function App() {
     <Navbar/>
     <Header/>
     <RecipeCategories/>
+    <LatestRecipes/>
+    <About/>
+    <Footer/>
     
     </>
   )
